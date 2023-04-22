@@ -1,29 +1,20 @@
 {
   "name": "img-opt",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
   "scripts": {
     "fetchImages": "node utils/fetchRemoteImagesInParallel.js",
-    "cropImages": "node utils/cropImages.js",
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "cropImages": "node utils/cropImages.js"
   },
   "dependencies": {
-    "decompress": "^4.2.1",
-    "decompress-targz": "^4.1.1",
-    "dotenv": "^16.0.3",
-    "git-push": "^0.1.1",
-    "graceful-fs": "^4.2.10",
-    "make-dir": "^3.1.0",
-    "mongodb": "^5.0.1",
-    "next": "13.3.0",
+    "decompress": "4.2.1",
+    "decompress-targz": "4.1.1",
+    "dotenv": "16.0.3",
+    "git-push": "0.1.1",
+    "graceful-fs": "4.2.10",
+    "make-dir": "3.1.0",
     "node-fetch": "2.6.1",
-    "p-limit": "^2.3.0",
-    "promise-retry": "^2.0.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "sharp": "^0.32.0"
+    "p-limit": "2.3.0",
+    "promise-retry": "2.0.1",
+    "sharp": "0.32.0"
   }
 }
