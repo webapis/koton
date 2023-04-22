@@ -132,12 +132,12 @@
 
     try {
         await Promise.all(promises)
-        execSync('git config --global user.name "Serdar Ashirov" ')
-        execSync("git config --global user.email 'webapis@users.noreply.github.com'")
-        execSync(`git remote set-url origin https://x-access-token:${process.env.GH_TOKEN}@github.com/webapis/img-opt.git`)
-        execSync("git add .")
-        execSync("git commit -m 'Automatedreport'")
-        execSync("git push")
+        // execSync('git config --global user.name "Serdar Ashirov" ')
+        // execSync("git config --global user.email 'webapis@users.noreply.github.com'")
+        // execSync(`git remote set-url origin https://x-access-token:${process.env.GH_TOKEN}@github.com/webapis/img-opt.git`)
+        // execSync("git add .")
+        // execSync("git commit -m 'Automatedreport'")
+        // execSync("git push")
 
     } catch (error) {
         console.log('all promse', error)
