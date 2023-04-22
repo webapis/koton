@@ -12,7 +12,7 @@ async function fetchRemoteImages() {
 
     const path = require('path')
     const fs = require('fs')
-    const placeholder = require('../assets/placeholders.json')
+    const placeholder = require('./placeholders.json')
     const { fetchImages } = require('./fetchImages')
 
     let counter = 0

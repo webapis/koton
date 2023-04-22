@@ -5,7 +5,7 @@ async function prefetchImage() {
  
 
     const { workerPromise } = require('./workerPromise')
-    const { walkSync } = require(`${process.cwd()}/utils/walkSync`)
+    const { walkSync } = require(`./walkSync`)
     const path = require('path')
 
     const plimit = require('p-limit');
