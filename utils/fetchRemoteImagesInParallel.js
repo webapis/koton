@@ -4,15 +4,15 @@ require('dotenv').config()
 async function prefetchImage() {
  
 
-    const { workerPromise } = require(`${process.cwd()}/node_modules/utils/workerPromise`)
-    const { walkSync } = require(`${process.cwd()}/node_modules/utils/walkSync`)
+    const { workerPromise } = require(`${process.cwd()}/node_modules/biraradamoda/utils/workerPromise`)
+    const { walkSync } = require(`${process.cwd()}/node_modules/biraradamoda/utils/walkSync`)
     const path = require('path')
 
     const plimit = require('p-limit');
 
     const limit = plimit(20);
 
-    const { downloadCollection } = require(`${process.cwd()}/node_modules/utils/uploadCollection`)
+    const { downloadCollection } = require(`${process.cwd()}/node_modules/biraradamoda/utils/uploadCollection`)
     const genders = [{ gender: 'kadin', gender1: 'kadin' }, { gender: 'erkek', gender1: 'erkek' }, { gender: 'kcocuk', gender1: 'kiz-cocuk' }, { gender: 'ecocuk', gender1: 'erkek-cocuk' }]
     console.log('process.env.marka', process.env.marka)
     for (let g of genders) {

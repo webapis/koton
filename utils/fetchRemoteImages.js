@@ -12,8 +12,8 @@ async function fetchRemoteImages() {
 
     const path = require('path')
     const fs = require('fs')
-    const placeholder = require('./placeholders.json')
-    const { fetchImages } = require('./fetchImages')
+    const placeholder = require(`${process.cwd()}/node_modules/biraradamoda/utils/placeholders.json`)
+    const { fetchImages } = require(`${process.cwd()}/node_modules/biraradamoda/utils/fetchImages`)
 
     let counter = 0
     for (let filepath of buffers) {
