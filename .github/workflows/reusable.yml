@@ -42,8 +42,6 @@ jobs:
           GH_TOKEN: ${{secrets.GH_TOKEN}}
       - name: fetchRemoteImages
         run: node utils/fetchRemoteImagesInParallel.js
-      - name: cropImages
-        run: node utils/cropImages.js
       - name: Commit report
         run: |
           git config --global user.name 'Serdar Ashirov'
