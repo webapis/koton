@@ -8,5 +8,5 @@
         const { gender, gender1 } = g
         await downloadCollection(gender, gender1, process.env.marka)
     }
-
+//
 })()
