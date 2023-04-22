@@ -1,7 +1,7 @@
 
 require('dotenv').config()
 
-async function fetchRemoteImages() {
+async function prefetchImage() {
  
 
     const { workerPromise } = require('./workerPromise')
@@ -43,6 +43,6 @@ async function fetchRemoteImages() {
 
 
 module.exports = {
-    fetchRemoteImages
+    prefetchImage
 }
 debugger
