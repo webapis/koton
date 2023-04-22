@@ -11,7 +11,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "biraradamoda": "^1.0.4",
+    "biraradamoda": "^1.0.5",
     "decompress": "^4.2.1",
     "decompress-targz": "^4.1.1",
     "dotenv": "^16.0.3",
