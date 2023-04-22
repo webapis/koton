@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "downloadData": "node utils/downloadData.js",
     "fetchImages": "node utils/fetchRemoteImagesInParallel.js",
     "cropImages": "node utils/cropImages.js",
     "dev": "next dev",
