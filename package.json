@@ -1,6 +1,7 @@
 {
   "name": "img-opt",
   "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
     "fetchImages": "node utils/fetchRemoteImagesInParallel.js",
     "cropImages": "node utils/cropImages.js"

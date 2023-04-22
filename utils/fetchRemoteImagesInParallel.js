@@ -2,7 +2,7 @@
 require('dotenv').config()
 
 async function fetchRemoteImages() {
-    global.counter =0
+ 
 
     const { workerPromise } = require('./workerPromise')
     const { walkSync } = require(`${process.cwd()}/utils/walkSync`)
@@ -28,18 +28,21 @@ async function fetchRemoteImages() {
         filePaths.push(filepath)
     })
     const chunk = (arr, size) => arr.reduce((carry, _, index, orig) => !(index % size) ? carry.concat([orig.slice(index, index + size)]) : carry, []);
-    
 
-    console.log('marka---------!',process.env.marka)
-    const chunkedArray = chunk(filePaths.filter(f=>f.includes(process.env.marka)), 40)
-debugger
-    const result = await Promise.all(chunkedArray.map((array,i) => {
+
+    console.log('marka---------!', process.env.marka)
+    const chunkedArray = chunk(filePaths.filter(f => f.includes(process.env.marka)), 40)
+    debugger
+    const result = await Promise.all(chunkedArray.map((array, i) => {
         debugger
-        return limit( () =>  workerPromise({ buffers: array,workerId:i }))
+        return limit(() => workerPromise({ buffers: array, workerId: i }))
     }));
     console.log('result finished', result)
 
 }
 
-fetchRemoteImages()
+
+module.exports = {
+    fetchRemoteImages
+}
 debugger
