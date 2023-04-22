@@ -7,7 +7,7 @@ function workerPromise({ buffers,workerId }) {
     if (isMainThread) {
 
         return new Promise((resolve, reject) => {
-            const encode_worker = new Worker(`${process.cwd()}/utils/fetchRemoteImages`, { workerData: { buffers,workerId } });
+            const encode_worker = new Worker(`${process.cwd()}/node_modules/biraradamoda/utils/fetchRemoteImages`, { workerData: { buffers,workerId } });
 
             // encode_worker.on('message', (transcode_data) => {
             //     log.info("%o", transcode_data);
