@@ -1,10 +1,7 @@
 
 require('dotenv').config()
 
-async function fetchRemoteImages() {
-const {prefet}=require('biraradamoda')
+const {prefetchImage}=require('biraradamoda')
 
-}
-
-fetchRemoteImages()
+prefetchImage()
 debugger
