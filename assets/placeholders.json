@@ -1,0 +1,1235 @@
+{
+    "defacto": {
+        "logo": {
+            "image": "./logo/defacto.svg",
+            "width": "25%",
+            "height": ""
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://dfcdn.defacto.com.tr/",
+        "detailHost": "https://www.defacto.com.tr/",
+        "postfix": "",
+        "imgPostFix": ""
+    },
+    "koton": {
+        "logo": {
+            "image": "./logo/koton.webp",
+            "width": "80",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://ktnimg2.mncdn.com/",
+        "detailHost": "https://www.koton.com/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "boyner": {
+        "logo": {
+            "image": "./logo/boyner.svg",
+            "width": "29%",
+            "height": ""
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://statics.boyner.com.tr/mnresize/325/451/productimages/",
+        "detailHost": "https://www.boyner.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "ipekyol": {
+        "logo": {
+            "image": "./logo/ipekyol.svg",
+            "width": "23%",
+            "height": ""
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://img2-ipekyol.mncdn.com/mnresize/",
+        "detailHost": "https://www.ipekyol.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "machka": {
+        "logo": {
+            "image": "./logo/machka.svg",
+            "width": "35%",
+            "height": ""
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://machka.mncdn.com/mnresize/660/-//Machka/products/",
+        "detailHost": "https://www.machka.com.tr/urun/",
+        "postfix": "",
+        "imgPostFix": ""
+    },
+    "lcwaikiki": {
+        "logo": {
+            "image": "./logo/lcwaikiki.svg",
+            "width": "80",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://img-lcwaikiki.mncdn.com/",
+        "detailHost": "https://www.lcwaikiki.com/",
+        "postfix": "",
+        "imgPostFix": ""
+    },
+    "mavijeans": {
+        "logo": {
+            "image": "./logo/mavi.svg",
+            "width": "18%",
+            "height": 10
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://sky-static.mavi.com/",
+        "detailHost": "https://www.mavi.com/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "adl": {
+        "logo": {
+            "width": "auto",
+            "heigth": "20",
+            "image": "./logo/adl.jpg"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://lmb-adl.akinoncdn.com/products/",
+        "detailHost": "https://www.adl.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "penti": {
+        "logo": {
+            "image": "./logo/penti.svg",
+            "width": "25%",
+            "height": ""
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://file-penti.mncdn.com/mnresize/",
+        "detailHost": "https://www.penti.com/tr/",
+        "postfix": "",
+        "imgPostFix": ""
+    },
+    "roman": {
+        "logo": {
+            "image": "./logo/roman.png",
+            "width": "80",
+            "height": "auto"
+        },
+        "imagePrefix": "",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://romancdn.sysrun.net/Content/ProductImage/Original/",
+        "detailHost": "https://www.roman.com.tr/detay/",
+        "postfix": "",
+        "imgPostFix": ""
+    },
+    "beymen": {
+        "logo": {
+            "image": "./logo/beymen.svg",
+            "width": "45%",
+            "height": ""
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://cdn.beymen.com/mnresize/431/-/",
+        "detailHost": "https://www.beymen.com/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "vakko": {
+        "logo": {
+            "image": "./logo/vakko.jpg",
+            "width": "30%",
+            "height": ""
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://vakko.akinoncdn.com/products/",
+        "detailHost": "https://www.vakko.com/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "zara": {
+        "logo": {
+            "image": "./logo/zara.jpg",
+            "width": "15%",
+            "height": ""
+        },
+        "imagePrefix": "",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://static.zara.net/photos/",
+        "detailHost": "https://www.zara.com/tr/tr/",
+        "postfix": "",
+        "imgPostFix": ""
+    },
+    "twist": {
+        "logo": {
+            "image": "./logo/twist.svg",
+            "width": "15%",
+            "height": ""
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://img2-twist.mncdn.com/",
+        "detailHost": "https://www.twist.com.tr/",
+        "postfix": "",
+        "imgPostFix": ""
+    },
+    "hm": {
+        "logo": {
+            "image": "./logo/hm.jpg",
+            "width": "30",
+            "height": "auto"
+        },
+        "imagePrefix": "",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "http://lp2.hm.com/hmgoepprod?set=source[",
+        "detailHost": "https://www2.hm.com/tr_tr/",
+        "postfix": "",
+        "imgPostFix": ""
+    },
+    "adidas": {
+        "logo": {
+            "image": "./logo/adidas.jpg",
+            "width": "28%",
+            "height": ""
+        },
+        "imagePrefix": "",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://assets.adidas.com/images/",
+        "detailHost": "https://www.adidas.com.tr/tr/",
+        "postfix": "",
+        "imgPostFix": ""
+    },
+    "baqa": {
+        "logo": {
+            "image": "./logo/baqa.jpg",
+            "width": "20%",
+            "height": ""
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "",
+        "detailHost": "https://www.baqa.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "beyyoglu": {
+        "logo": {
+            "image": "./logo/beyyoglu.svg",
+            "width": "45%",
+            "height": ""
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://179a38.cdn.akinoncloud.com/products/",
+        "detailHost": "https://www.beyyoglu.com/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "dogo": {
+        "logo": {
+            "image": "./logo/dogo.svg",
+            "width": "25%",
+            "height": ""
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://www.dogostore.com/",
+        "detailHost": "https://www.dogostore.com/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "dilvin": {
+        "logo": {
+            "image": "./logo/dilvin.png",
+            "width": "50",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://kvyfm6d9dll6.merlincdn.net/productimages/",
+        "detailHost": "https://www.dilvin.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "dagi": {
+        "logo": {
+            "image": "./logo/dagi.png",
+            "width": "50",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://img-dagi.mncdn.com/mnpadding/",
+        "detailHost": "https://www.dagi.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "colins": {
+        "logo": {
+            "image": "./logo/colins.png",
+            "width": "20%",
+            "height": ""
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://img-colinstr.mncdn.com/mnresize/",
+        "detailHost": "https://www.colins.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "butigo": {
+        "logo": {
+            "image": "./logo/butigo.jpg",
+            "width": "30%",
+            "height": ""
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://floimages.mncdn.com/mnpadding/",
+        "detailHost": "https://www.butigo.com.tr",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "faststep": {
+        "logo": {
+            "image": "./logo/faststep.jpg",
+            "width": "30%",
+            "height": ""
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://cdn.faststep.com.tr?img=catalog/urunresim/",
+        "detailHost": "https://www.faststep.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "fullamoda": {
+        "logo": {
+            "image": "./logo/fullamoda.webp",
+            "width": "30%",
+            "height": ""
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://images.farktorcdn.com/img/",
+        "detailHost": "https://www.fullamoda.com/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "gizia": {
+        "logo": {
+            "image": "./logo/gizia.svg",
+            "width": "30%",
+            "height": ""
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://pic.gizia.com/",
+        "detailHost": "https://www.gizia.com/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "vitrin": {
+        "logo": {
+            "image": "./logo/vitrin.png",
+            "width": "30%",
+            "height": ""
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://www.vitrin.com.tr/",
+        "detailHost": "https://www.vitrin.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "xint": {
+        "logo": {
+            "image": "./logo/xint.png",
+            "width": "20%",
+            "height": ""
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://xint.com.tr/",
+        "detailHost": "https://xint.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "tozlu": {
+        "logo": {
+            "image": "./logo/tozlu.svg",
+            "width": "20%",
+            "height": ""
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://static.ticimax.cloud/",
+        "detailHost": "https://www.tozlu.com/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "quzu": {
+        "logo": {
+            "image": "./logo/quzu.webp",
+            "width": "20%",
+            "height": ""
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://www.quzu.com.tr/",
+        "detailHost": "https://www.quzu.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "saygigiyim": {
+        "logo": {
+            "image": "./logo/saygigiyim.webp",
+            "width": "20%",
+            "height": ""
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "",
+        "detailHost": "https://www.saygigiyim.com/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "manuka": {
+        "logo": {
+            "image": "./logo/manuka.webp",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://www.manuka.com.tr/",
+        "detailHost": "https://www.manuka.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "kikiriki": {
+        "logo": {
+            "image": "./logo/manuka.webp",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://cdn.vebigo.com/",
+        "detailHost": "https://tr.kikiriki.com/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "jimmykey": {
+        "logo": {
+            "image": "./logo/manuka.webp",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://cdn.sorsware.com/",
+        "detailHost": "https://www.jimmykey.com/tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "perspective": {
+        "logo": {
+            "image": "./logo/manuka.webp",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "",
+        "imagePrefixImageKit": "",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://cdn.sorsware.com/",
+        "detailHost": "https://www.perspective.com.tr/",
+        "postfix": "",
+        "imgPostFix": ""
+    },
+    "mango": {
+        "logo": {
+            "image": "./logo/manuka.webp",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://st.mngbcn.com/",
+        "detailHost": "https://shop.mango.com/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "olegcassini": {
+        "logo": {
+            "image": "./logo/manuka.webp",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://cdn.olegcassini.com.tr/",
+        "detailHost": "https://www.olegcassini.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "addax": {
+        "logo": {
+            "image": "./logo/manuka.webp",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://cdn3.sorsware.com/",
+        "detailHost": "https://www.addax.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "oxxo": {
+        "logo": {
+            "image": "./logo/manuka.webp",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://cdn.sorsware.com/",
+        "detailHost": "https://www.oxxo.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "abiyefon": {
+        "logo": {
+            "image": "./logo/manuka.webp",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://www.abiyefon.com/",
+        "detailHost": "https://www.abiyefon.com/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "desa": {
+        "logo": {
+            "image": "./logo/manuka.webp",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://14231c.cdn.akinoncloud.com/",
+        "detailHost": "https://www.desa.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "patirti": {
+        "logo": {
+            "image": "./logo/manuka.webp",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://images.patirti.com/",
+        "detailHost": "https://www.patirti.com/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "yargici": {
+        "logo": {
+            "image": "./logo/manuka.webp",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://img-incommerce-yargici.mncdn.com/",
+        "detailHost": "https://www.yargici.com/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+
+    "network": {
+        "logo": {
+            "image": "./logo/manuka.webp",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://img-network.mncdn.com/mnresize/",
+        "detailHost": "https://www.network.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "sementa": {
+        "logo": {
+            "image": "./logo/manuka.webp",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://cdn.sementa.com/",
+        "detailHost": "https://www.sementa.com/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "tiffanytomato": {
+        "logo": {
+            "image": "./logo/manuka.webp",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://www.tiffanytomato.com.tr/",
+        "detailHost": "https://www.tiffanytomato.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "derimod": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://c0a146.cdn.akinoncloud.com/products/",
+        "detailHost": "https://www.derimod.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "tergan": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://www.tergan.com.tr",
+        "detailHost": "https://www.tergan.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "deriderim": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://static.ticimax.cloud/",
+        "detailHost": "https://www.deriderim.com/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "matras": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://img.matras.com/",
+        "detailHost": "https://www.matras.com/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+
+    "dericlub": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "",
+        "detailHost": "https://www.dericlub.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    }
+    ,
+
+    "dericeket": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://static.ticimax.cloud/",
+        "detailHost": "https://www.dericeket.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    
+    "deristore": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://www.deristore.com.tr/",
+        "detailHost": "https://www.deristore.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    }
+    ,
+    
+    "ikbalderi": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://ikbalderi.com/",
+        "detailHost": "https://ikbalderi.com/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "pierrecardin": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://aydinli-pc.b-cdn.net/",
+        "detailHost": "https://www.pierrecardin.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "beymenclub": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://cdn.beymen.com/",
+        "detailHost": "https://www.beymenclub.com/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "hukkadesign": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://www.hukkadesign.com/",
+        "detailHost": "https://www.hukkadesign.com/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "alinderi": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://www.alinderi.com.tr/",
+        "detailHost": "https://www.alinderi.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "blacknoble": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://static.ticimax.cloud/",
+        "detailHost": "https://www.blacknoble.com/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "wcollection": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://vakko-wcollection.akinoncdn.com/",
+        "detailHost": "https://www.wcollection.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "miostil": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://miostil.com/",
+        "detailHost": "https://miostil.com/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "lovemybody": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://akn-lmb.b-cdn.net/",
+        "detailHost": "https://www.lovemybody.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "bsl": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://cdn3.sorsware.com/",
+        "detailHost": "https://www.bsl.com.tr/",
+        "postfix": "",
+        "imgPostFix": ""
+    },
+    "nu": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://cdn.shopify.com/",
+        "detailHost": "https://www.nu.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "exquise": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://cdn.myikas.com/",
+        "detailHost": "https://exquise.com/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "lacht": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://cdn.qukasoft.com/",
+        "detailHost": "https://www.lacht.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "sarar": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://cdn.sarar.com/",
+        "detailHost": "https://sarar.com/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    
+    "alpinist": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://st.myideasoft.com/",
+        "detailHost": "https://www.alpinist.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "kigili": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://kigili.akinoncdn.com/",
+        "detailHost": "https://www.kigili.com/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "valiberta": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://static.ticimax.cloud/",
+        "detailHost": "https://www.valiberta.com/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+
+    "slatra": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://static.ticimax.cloud/",
+        "detailHost": "https://www.slatra.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "markapia": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://www.markapia.com/",
+        "detailHost": "https://www.markapia.com/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "tommylife": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://cdn.tommylife.com.tr/",
+        "detailHost": "https://www.tommylife.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "avva": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://static.ticimax.cloud/",
+        "detailHost": "https://www.avva.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+
+    "uspoloassn": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://aydinli-polo.b-cdn.net/",
+        "detailHost": "https://tr.uspoloassn.com/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "wrangler": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://f-lwr-l.mncdn.com/",
+        "detailHost": "https://wrangler.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "levis": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://st-levis.mncdn.com/",
+        "detailHost": "https://www.levis.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "centone": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://www.centone.com.tr/",
+        "detailHost": "https://www.centone.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "nike": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://static.nike.com/",
+        "detailHost": "https://www.nike.com/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "mizunotr": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://www.mizunotr.com/",
+        "detailHost": "https://www.mizunotr.com/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "gant": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://www.gant.com.tr/",
+        "detailHost": "https://181d20.cdn.akinoncloud.com/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "puma": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://images.puma.com/",
+        "detailHost": "https://tr.puma.com/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "imza": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://images.puma.com/",
+        "detailHost": "https://www.imza.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "vena": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://www.imza.com.tr/",
+        "detailHost": "https://www.vena.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "efor": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://statics.efor.com.tr/",
+        "detailHost": "https://www.efor.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "wessi": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://www.wessi.com/",
+        "detailHost": "https://www.wessi.com/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "slazenger": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://img.slazenger.com.tr/",
+        "detailHost": "https://img.slazenger.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "kip": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://cdn.kip.com.tr/",
+        "detailHost": "https://www.kip.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "cetinkaya": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://static.ticimax.cloud/",
+        "detailHost": "https://www.cetinkaya.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "hatemoglu": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://img.hatemoglu.com/",
+        "detailHost": "https://www.hatemoglu.com/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "ucla": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://www.ucla.com.tr/",
+        "detailHost": "https://www.ucla.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "blu": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://static.ticimax.cloud/",
+        "detailHost": "https://shop.blu.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "mudo": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://akn-mudo.b-cdn.net/",
+        "detailHost": "https://shop.blu.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    },
+    "jakamen": {
+        "logo": {
+            "image": "",
+            "width": "40%",
+            "height": "auto"
+        },
+        "imagePrefix": "https://ik.imagekit.io/mumrjdehaou/",
+        "placeholder": "./placeholder-img/placeholder.jpg",
+        "imageHost": "https://akn-mudo.b-cdn.net/",
+        "detailHost": "https://shop.blu.com.tr/",
+        "postfix": "",
+        "imgPostFix": "?tr=w-400"
+    }
+}
