@@ -2,8 +2,8 @@
 require('dotenv').config()
 
 async function prefetchImage() {
- 
 
+    const { cropImages } = require(`${process.cwd()}/node_modules/biraradamoda/utils/cropImages`)
     const { workerPromise } = require(`${process.cwd()}/node_modules/biraradamoda/utils/workerPromise`)
     const { walkSync } = require(`${process.cwd()}/node_modules/biraradamoda/utils/walkSync`)
     const path = require('path')
@@ -44,6 +44,7 @@ async function prefetchImage() {
         debugger
         return limit(() => workerPromise({ buffers: array, workerId: i }))
     }));
+    await cropImages()
     console.log('result finished', result)
 
 }

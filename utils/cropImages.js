@@ -1,18 +1,37 @@
 
+require('dotenv').config()
+const sharp = require('sharp');
+const fs = require('fs')
+const { walkSync } = require('./walkSync')
+const makeDir = require('make-dir')
+const path = require('path')
+const plimit = require('p-limit')
+const limit = plimit(5);
+const promises = []
+let counter = 0
+let total = 0
+async function cropImage({ srcPath, dstPath }) {
 
-(async () => {
-    require('dotenv').config()
-    const sharp = require('sharp');
-    const fs = require('fs')
-    const { walkSync } = require('./walkSync')
-    const makeDir = require('make-dir')
-    const path = require('path')
-    const plimit = require('p-limit')
-    const limit = plimit(5);
-    const promises = []
-    let counter = 0
-    let total = 0
+    try {
+        const fs = require('fs')
+        const buffer = fs.readFileSync(srcPath)
+        await sharp(buffer)
+            .resize(250)
+            .jpeg()
+            .toFile(dstPath);
+        ++counter
+        console.log('counter', counter)
+        if (counter >= 100) {
+            counter = 0
+            ++total
 
+        }
+    } catch (error) {
+        console.log('sharp error', error)
+    }
+
+}
+async function cropImages() {
     walkSync('images', async (src) => {
         try {
             console.log('src', src)
@@ -45,27 +64,6 @@
 
 
     })
-    async function cropImage({ srcPath, dstPath }) {
-
-        try {
-            const fs = require('fs')
-            const buffer = fs.readFileSync(srcPath)
-            await sharp(buffer)
-                .resize(250)
-                .jpeg()
-                .toFile(dstPath);
-            ++counter
-            console.log('counter', counter)
-            if (counter >= 100) {
-                counter = 0
-                ++total
-   
-            }
-        } catch (error) {
-            console.log('sharp error', error)
-        }
-
-    }
 
     try {
         await Promise.all(promises)
@@ -74,7 +72,16 @@
     } catch (error) {
         console.log('all promse', error)
     }
+}
 
 
 
-})()
+module.exports = {
+    cropImages
+}
+
+
+
+
+
+
