@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "fetchImages": "node utils/fetchRemoteImagesInParallel.js",
-    "cropImages": "node utils/cropImages.js"
+    "cropImages": "node utils/cropImages.js",
+    "snap": "node snap.js"
   },
   "dependencies": {
     "decompress": "4.2.1",

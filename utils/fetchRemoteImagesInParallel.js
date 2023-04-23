@@ -34,6 +34,7 @@ async function prefetchImage() {
     walkSync(path.join(process.cwd(), `erkek-cocuk/unzipped-data`), async (filepath) => {
         filePaths.push(filepath)
     })
+    
     const chunk = (arr, size) => arr.reduce((carry, _, index, orig) => !(index % size) ? carry.concat([orig.slice(index, index + size)]) : carry, []);
 
 
