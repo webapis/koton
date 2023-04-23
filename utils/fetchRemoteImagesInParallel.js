@@ -14,7 +14,7 @@ async function prefetchImage() {
 
     const { downloadCollection } = require(`${process.cwd()}/node_modules/biraradamoda/utils/uploadCollection`)
     const genders = [{ gender: 'kadin', gender1: 'kadin' }, { gender: 'erkek', gender1: 'erkek' }, { gender: 'kcocuk', gender1: 'kiz-cocuk' }, { gender: 'ecocuk', gender1: 'erkek-cocuk' }]
-    console.log('process.env.marka', process.env.marka)
+
     for (let g of genders) {
         const { gender, gender1 } = g
         await downloadCollection(gender, gender1, process.env.marka)
@@ -38,7 +38,7 @@ async function prefetchImage() {
     const chunk = (arr, size) => arr.reduce((carry, _, index, orig) => !(index % size) ? carry.concat([orig.slice(index, index + size)]) : carry, []);
 
 
-    console.log('marka---------!', process.env.marka)
+
     const chunkedArray = chunk(filePaths.filter(f => f.includes(process.env.marka)), 40)
     debugger
     const result = await Promise.all(chunkedArray.map((array, i) => {

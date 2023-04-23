@@ -4,7 +4,7 @@
 async function fetchRemoteImages() {
 
     const {
-        Worker, isMainThread, parentPort, workerData
+         workerData
     } = require('node:worker_threads');
     const { buffers, workerId } = workerData
     const makeDir = require('make-dir');
@@ -30,29 +30,22 @@ async function fetchRemoteImages() {
                 const fileDestion = `${process.cwd()}/images/${marka}/${imageFileName}`
                 const cropperDest = `${process.cwd()}/public/img-resized/${marka}/${imageFileName}`
                 const urls = { url: fullImageUrl, filepath: fileDestion, imgTitle: product.title }
-                console.log('counter', counter)
-                if (!fs.existsSync(cropperDest) && counter <= 50) {
+
+                if (!fs.existsSync(cropperDest) && counter <= 60) {
 
                     try {
                         await fetchImages({ urls: [urls], workerId })
                         counter = counter + 1
-                        console.log('workerId', workerId)
+             
                     } catch (error) {
                         console.log('error----', error
                         )
                     }
 
-                } else {
-                    console.log('fileDestion exists', fileDestion)
-             
-
-                }
+                } 
 
                 debugger
-            } else {
-
-                console.log('product', product)
-            }
+            } 
 
 
         }

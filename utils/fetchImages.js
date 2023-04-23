@@ -15,7 +15,7 @@ async function fetchImages({ urls,workerId }) {
 
                 const stream1 = fs.createWriteStream(filepath1)
                 stream1.on('close', () => {
-                    console.log('close1 workderId',workerId, stream1.bytesWritten, filepath1, url1)
+               
                     resolve({ filepath: filepath1, title: title1 })
                 })
                 stream1.on('error', (error) => {
