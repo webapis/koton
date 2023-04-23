@@ -1,16 +1,41 @@
 
+const { walkSync } = require('./utils/walkSync')
+const path =require('path')
+let countfiles = 0
+
+walkSync(path.join(process.cwd(), `utils`), () => {
+    ++countfiles
+ 
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 function dataIsNew() {
     const fs = require('fs')
 
     if (!fs.existsSync(`${process.cwd()}/log-date.text`)) {
-      
+
         const date = Date.now()
         fs.writeFileSync(`${process.cwd()}/log-date.text`, date.toString());
         return false
     } else {
-     
+
         const date = fs.readFileSync(`${process.cwd()}/log-date.text`, { encoding: 'utf8' })
         const date1 = new Date(parseInt(date));
         const date2 = new Date();
@@ -23,6 +48,3 @@ function dataIsNew() {
 
     }
 }
-
-const result =dataIsNew()
-debugger

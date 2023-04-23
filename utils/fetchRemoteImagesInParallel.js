@@ -47,7 +47,13 @@ async function prefetchImage() {
     }));
     await cropImages()
     console.log('result finished', result)
+    let countfiles = 0
+    walkSync(path.join(process.cwd(), `public/img-resized`), () => {
+        ++countfiles
+     
+    })
 
+    console.log('total imgs',countfiles)
 }
 
 
