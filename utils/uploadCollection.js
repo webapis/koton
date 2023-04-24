@@ -89,6 +89,8 @@ async function downloadCollection(gender, gender1, marka) {
         console.log('data is old')
         await getZipFiles(gender, gender1, marka)
         await unzipFiles(gender, gender1)
+        const date = Date.now()
+        fs.writeFileSync(`${process.cwd()}/log-date.text`, date.toString());
     }else{
         console.log('data is new')
     }
