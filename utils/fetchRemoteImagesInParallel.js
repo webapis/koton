@@ -2,7 +2,7 @@
 require('dotenv').config()
 
 async function prefetchImage() {
-
+console.log('version 1.1.12')
     const { cropImages } = require(`${process.cwd()}/node_modules/biraradamoda/utils/cropImages`)
     const { workerPromise } = require(`${process.cwd()}/node_modules/biraradamoda/utils/workerPromise`)
     const { walkSync } = require(`${process.cwd()}/node_modules/biraradamoda/utils/walkSync`)
