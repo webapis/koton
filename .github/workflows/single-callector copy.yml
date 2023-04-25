@@ -2,7 +2,7 @@ name: koton-img
 on:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '0 4 * * 4,6'
+    - cron: '*/15 * * * *'
 env:
   GH_TOKEN: ${{secrets.GH_TOKEN}}
 jobs:
