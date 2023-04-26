@@ -52,9 +52,9 @@ async function prefetchImage() {
 
 
     const chunkedArray = chunk(filePaths.filter(f => f.includes(process.env.marka)), 40)
-    debugger
+ 
     const result = await Promise.all(chunkedArray.map((array, i) => {
-        debugger
+      
         return limit(() => workerPromise({ buffers: array, workerId: i }))
     }));
     await cropImages()
@@ -72,4 +72,3 @@ async function prefetchImage() {
 module.exports = {
     prefetchImage
 }
-debugger

@@ -1,0 +1,13 @@
+name: koton-img
+on:
+  schedule:
+    - cron:  '0 4 * * 4,6'
+env:
+  GH_TOKEN: ${{secrets.GH_TOKEN}}
+jobs:
+  koton_job:
+    if: always()
+    uses: ./.github/workflows/reusable.yml
+    with:
+      marka: koton
+    secrets: inherit

@@ -22,15 +22,16 @@ async function fetchRemoteImages() {
         const data = JSON.parse(fs.readFileSync(filepath))
         debugger
         await makeDir(`${process.cwd()}/images/${marka}`)
-        debugger
+
         for (let product of data) {
             if (product !== null && product.imageUrl !== null) {
                 const fullImageUrl = imageHost + product.imageUrl
-                const imageFileName = path.basename(product.imageUrl)
-                const fileDestion = `${process.cwd()}/images/${marka}/${imageFileName}`
-                const cropperDest = `${process.cwd()}/public/img-resized/${marka}/${imageFileName}`
-                const urls = { url: fullImageUrl, filepath: fileDestion, imgTitle: product.title }
 
+                const destFileName =product.imageUrl.replace(/\W/g, '')+'.jpeg'
+                const fileDestion = `${process.cwd()}/images/${marka}/${destFileName}`
+                const cropperDest = `${process.cwd()}/public/img-resized/${marka}/${destFileName}`
+                const urls = { url: fullImageUrl, filepath: fileDestion, imgTitle: product.title }
+debugger
                 if (!fs.existsSync(cropperDest) && counter <= 500) {
 
                     try {
@@ -56,4 +57,3 @@ async function fetchRemoteImages() {
 }
 
 fetchRemoteImages()
-debugger
