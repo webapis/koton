@@ -7,7 +7,6 @@ env:
 jobs:
   koton_job:
     if: always()
-    # needs: [kikiriki_job,kigili_job,ipekyol_job,ikbalderi_job,hm_job,gizia_job,exquise_job,dilvin_job,desa_job,deristore_job,derimod_job,deriderim_job,dericlub_job,dericeket_job,defacto_job,colins_job,centone_job,bsl_job,blacknoble_job,beyyoglu_job,beymenclub_job,beymen_job,baqa_job,avva_job,abiyefon_job,addax_job,adl_job,alinderi_job]
     uses: ./.github/workflows/reusable.yml
     with:
       marka: koton
