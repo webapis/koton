@@ -2,12 +2,12 @@
 require('dotenv').config()
 
 async function prefetchImage() {
-console.log('version 1.1.12')
+    console.log('version 1.1.12')
     const { cropImages } = require(`${process.cwd()}/node_modules/biraradamoda/utils/cropImages`)
     const { workerPromise } = require(`${process.cwd()}/node_modules/biraradamoda/utils/workerPromise`)
     const { walkSync } = require(`${process.cwd()}/node_modules/biraradamoda/utils/walkSync`)
     const path = require('path')
-
+    const fs = require('fs')
     const plimit = require('p-limit');
 
     const limit = plimit(20);
@@ -21,20 +21,32 @@ console.log('version 1.1.12')
     }
     let filePaths = []
 
-    walkSync(path.join(process.cwd(), `erkek/unzipped-data`), async (filepath) => {
-        filePaths.push(filepath)
-    })
-    walkSync(path.join(process.cwd(), `kadin/unzipped-data`), async (filepath) => {
-        filePaths.push(filepath)
-    })
-    walkSync(path.join(process.cwd(), `kiz-cocuk/unzipped-data`), async (filepath) => {
-        filePaths.push(filepath)
-    })
 
-    walkSync(path.join(process.cwd(), `erkek-cocuk/unzipped-data`), async (filepath) => {
-        filePaths.push(filepath)
-    })
-    
+    if (fs.existsSync(path.join(process.cwd(), `erkek/unzipped-data`))) {
+        walkSync(path.join(process.cwd(), `erkek/unzipped-data`), async (filepath) => {
+            filePaths.push(filepath)
+        })
+
+    }
+    if (fs.existsSync(path.join(process.cwd(), `kadin/unzipped-data`))) {
+        walkSync(path.join(process.cwd(), `kadin/unzipped-data`), async (filepath) => {
+            filePaths.push(filepath)
+        })
+    }
+
+    if (fs.existsSync(path.join(process.cwd(), `kiz-cocuk/unzipped-data`))) {
+        walkSync(path.join(process.cwd(), `kiz-cocuk/unzipped-data`), async (filepath) => {
+            filePaths.push(filepath)
+        })
+    }
+
+    if (fs.existsSync(path.join(process.cwd(), `erkek-cocuk/unzipped-data`))) {
+        walkSync(path.join(process.cwd(), `erkek-cocuk/unzipped-data`), async (filepath) => {
+            filePaths.push(filepath)
+        })
+    }
+
+
     const chunk = (arr, size) => arr.reduce((carry, _, index, orig) => !(index % size) ? carry.concat([orig.slice(index, index + size)]) : carry, []);
 
 
@@ -50,10 +62,10 @@ console.log('version 1.1.12')
     let countfiles = 0
     walkSync(path.join(process.cwd(), `public/img-resized`), () => {
         ++countfiles
-     
+
     })
 
-    console.log('total imgs',countfiles)
+    console.log('total imgs', countfiles)
 }
 
 
