@@ -31,7 +31,7 @@ async function fetchRemoteImages() {
                 const cropperDest = `${process.cwd()}/public/img-resized/${marka}/${imageFileName}`
                 const urls = { url: fullImageUrl, filepath: fileDestion, imgTitle: product.title }
 
-                if (!fs.existsSync(cropperDest) && counter <= 60) {
+                if (!fs.existsSync(cropperDest) && counter <= 500) {
 
                     try {
                         await fetchImages({ urls: [urls], workerId })
